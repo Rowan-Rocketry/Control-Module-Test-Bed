@@ -418,6 +418,7 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -453,6 +454,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -664,7 +666,7 @@
     ],
     [
       "b41619a2-11a0-4fcf-9c2d-b1ec93f6b99c",
-      "USB"
+      "USB-C"
     ],
     [
       "646bb59c-dea9-4304-8415-d4c1819f029f",
@@ -679,16 +681,16 @@
       "MicroSD Card"
     ],
     [
-      "5cbe472f-392f-4a6c-b699-1aa71c926961",
-      "Valve Controller"
-    ],
-    [
       "7b15f5f2-9385-4263-9cd0-b3960b130352",
       "IMU Sensors"
     ],
     [
       "39cd510b-4c65-4a51-9a25-0e0b3aa6fc74",
       "Pyro Controller 1"
+    ],
+    [
+      "5906240e-8ee4-4d86-a3fe-186c4ac07fa9",
+      "Battery"
     ]
   ],
   "text_variables": {}

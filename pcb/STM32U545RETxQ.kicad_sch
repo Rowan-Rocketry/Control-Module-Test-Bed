@@ -3363,7 +3363,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 40.64) (xy 168.91 50.8)
+			(xy 168.91 38.1) (xy 168.91 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3619,17 +3619,6 @@
 			(justify left)
 		)
 		(uuid "48807b35-ae3e-429e-acd6-34ed3652bb68")
-	)
-	(hierarchical_label "V_USB"
-		(shape input)
-		(at 168.91 40.64 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "57d06a56-51cd-49fa-8397-5c1101237a64")
 	)
 	(hierarchical_label "ADC1_IN15"
 		(shape input)
@@ -4980,6 +4969,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 168.91 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7327b0ca-f337-4267-b43d-2d2f8b518a7d")
+		(property "Reference" "#PWR056"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 168.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 168.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b82a6422-f032-49da-9af5-d42713d89ee3")
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/646bb59c-dea9-4304-8415-d4c1819f029f"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C_2")
 		(lib_id "Device:C")
 		(at 41.91 151.13 0)
@@ -5210,7 +5265,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c72fd3b-3441-430f-bcdc-837e7dbcdf4d")
 		(property "Reference" "#PWR074"
 			(at 163.83 54.61 0)
@@ -5222,7 +5276,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 163.83 45.72 0)
+			(at 163.322 45.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
