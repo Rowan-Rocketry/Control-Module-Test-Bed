@@ -781,6 +781,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3284,6 +3391,12 @@
 		(uuid "fe8db19b-cc8e-4791-984e-a8f5f47e21da")
 	)
 	(junction
+		(at 241.3 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34c83563-fdf9-465d-9624-db8f68cc379c")
+	)
+	(junction
 		(at 139.7 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3330,20 +3443,12 @@
 		(uuid "1bbc30f8-4fff-45e4-a8ea-7ad8c001cf57")
 	)
 	(no_connect
-		(at 93.98 115.57)
-		(uuid "330336a3-ff82-47b4-b7d0-384d434a15bc")
-	)
-	(no_connect
 		(at 92.71 97.79)
 		(uuid "43743e36-e7b4-4684-a2a2-d45414d7acc0")
 	)
 	(no_connect
 		(at 92.71 102.87)
 		(uuid "83fea04f-6c1b-4b29-b205-f7648a1fcc67")
-	)
-	(no_connect
-		(at 93.98 118.11)
-		(uuid "aa8e3a90-d249-41d4-bd57-c54ffa3c7f08")
 	)
 	(no_connect
 		(at 43.18 123.19)
@@ -3425,6 +3530,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 140.97) (xy 241.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29115a8e-580d-44ca-96ff-45fc0da847a8")
+	)
+	(wire
+		(pts
 			(xy 142.24 91.44) (xy 153.67 91.44)
 		)
 		(stroke
@@ -3445,7 +3560,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 140.97) (xy 241.3 144.78)
+			(xy 241.3 138.43) (xy 241.3 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3725,16 +3840,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 115.57) (xy 105.41 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a29ad8f8-a114-4a62-8cfc-f192e4a36bb3")
-	)
-	(wire
-		(pts
 			(xy 227.33 157.48) (xy 227.33 156.21)
 		)
 		(stroke
@@ -3782,16 +3887,6 @@
 			(type default)
 		)
 		(uuid "b57301e1-626c-4b34-8edc-720c9f0ccc6f")
-	)
-	(wire
-		(pts
-			(xy 93.98 118.11) (xy 105.41 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8b8382b-56d7-44e0-894f-95a407449620")
 	)
 	(wire
 		(pts
@@ -4621,6 +4716,72 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
+		(at 31.75 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19217f42-acf5-4ac3-9580-529ad5ac06b8")
+		(property "Reference" "#PWR077"
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 31.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8390524-4a8e-441c-b1bb-a74e86edd4b1")
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
 		(at 241.3 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4762,6 +4923,72 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
+		(at 21.59 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27b203de-ea8a-43df-9c62-ff37dde6a5e4")
+		(property "Reference" "#PWR076"
+			(at 21.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 21.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 21.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66087ed3-d0ab-4545-9f47-b6d803087e1e")
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
 		(at 238.76 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4821,6 +5048,81 @@
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 241.3 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d65ed40-49e9-4642-a663-08a03d757d3e")
+		(property "Reference" "TP_3V3_reg"
+			(at 237.49 139.446 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 236.982 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 241.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 241.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 241.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326"
+			(at 241.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b17e3227-ad7a-486b-8f6d-3d433d0d5023")
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec"
+					(reference "TP_3V3_reg")
 					(unit 1)
 				)
 			)
@@ -5541,6 +5843,81 @@
 			(project "ride-along-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 21.59 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6736eb0a-4b34-43fd-8889-1661caf5cb07")
+		(property "Reference" "TP_GND_1"
+			(at 15.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 15.24 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 26.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 26.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 21.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326"
+			(at 21.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "994e0f1d-cbcf-40e2-a63b-a93db81e63d4")
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec"
+					(reference "TP_GND_1")
 					(unit 1)
 				)
 			)
@@ -6359,6 +6736,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93557c84-1406-46b0-b84e-b7bd4ff4843c")
+		(property "Reference" "TP_GND_2"
+			(at 27.94 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 27.94 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 36.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 36.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326"
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1885c901-0e94-4c11-9363-189b75b128b0")
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec"
+					(reference "TP_GND_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 213.36 157.48 0)
 		(unit 1)
@@ -6930,7 +7382,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 241.3 140.97 0)
+		(at 241.3 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6939,7 +7391,7 @@
 		(fields_autoplaced yes)
 		(uuid "b94530cc-92ed-43f8-8819-8cdd809456dc")
 		(property "Reference" "#PWR014"
-			(at 241.3 144.78 0)
+			(at 241.3 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +7400,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 241.3 135.89 0)
+			(at 241.3 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +7408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 140.97 0)
+			(at 241.3 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6965,7 +7417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 140.97 0)
+			(at 241.3 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,7 +7426,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 241.3 140.97 0)
+			(at 241.3 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8330,16 +8782,6 @@
 				(justify left)
 			)
 		)
-		(pin "ADC1_IN15" input
-			(at 105.41 115.57 180)
-			(uuid "84e9dc4f-a5a5-4154-b95f-4902f027d22b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ADC1_IN16" input
 			(at 142.24 138.43 0)
 			(uuid "23b6843e-daa8-47c1-b5b2-02e3812c8372")
@@ -8363,16 +8805,6 @@
 		(pin "PYRO2_FIRE" output
 			(at 105.41 140.97 180)
 			(uuid "b329c7a4-50d9-4060-930b-d3ff2ee4a12d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VALVE_FIRE" output
-			(at 105.41 118.11 180)
-			(uuid "138990f5-cbfa-4c4b-aa9c-9a9998b4a863")
 			(effects
 				(font
 					(size 1.27 1.27)
