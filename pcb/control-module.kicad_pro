@@ -691,6 +691,10 @@
     [
       "5906240e-8ee4-4d86-a3fe-186c4ac07fa9",
       "Battery"
+    ],
+    [
+      "df83429b-f2ab-448f-b3ce-9aa6514ebb89",
+      "STLink"
     ]
   ],
   "text_variables": {}

@@ -3405,6 +3405,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 127) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f64bcc-c14c-4f5e-95f6-4add8399f5c5")
+	)
+	(wire
+		(pts
 			(xy 67.31 133.35) (xy 41.91 133.35)
 		)
 		(stroke
@@ -3455,6 +3465,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 129.54) (xy 158.75 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d4fa56-ebed-4a23-a62f-47990cddff14")
+	)
+	(wire
+		(pts
 			(xy 80.01 153.67) (xy 83.82 153.67)
 		)
 		(stroke
@@ -3472,6 +3492,16 @@
 			(type default)
 		)
 		(uuid "391efafe-6602-4791-b929-fe817dcf01f1")
+	)
+	(wire
+		(pts
+			(xy 142.24 124.46) (xy 158.75 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467ac197-608b-4ce7-8cdb-d662d48e2522")
 	)
 	(wire
 		(pts
@@ -3555,6 +3585,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 134.62) (xy 158.75 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8f3580-971a-469f-ab8b-911deff448f0")
+	)
+	(wire
+		(pts
 			(xy 115.57 173.99) (xy 113.03 173.99)
 		)
 		(stroke
@@ -3632,6 +3672,16 @@
 			(type default)
 		)
 		(uuid "7226b159-83ed-42a8-bdda-380ec919023f")
+	)
+	(wire
+		(pts
+			(xy 142.24 132.08) (xy 158.75 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a52048-f338-45c2-97cf-e21f1ee101d7")
 	)
 	(wire
 		(pts
@@ -4145,6 +4195,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 134.62) (xy 184.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdde4706-ddab-4fbf-aea6-ea7bf2ed2f04")
+	)
+	(wire
+		(pts
 			(xy 91.44 22.86) (xy 99.06 22.86)
 		)
 		(stroke
@@ -4467,6 +4527,16 @@
 			(justify left bottom)
 		)
 		(uuid "cf1d4901-6f6d-402f-946b-99c7d3fbe54e")
+	)
+	(label "NRST"
+		(at 184.15 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e73597ce-70a8-4aed-bb9f-bb084dceaf29")
 	)
 	(label "V_USB"
 		(at 76.2 153.67 180)
@@ -9336,6 +9406,56 @@
 				(justify left)
 			)
 		)
+		(pin "MCU_TX" output
+			(at 142.24 127 0)
+			(uuid "73bc58e2-4d55-46a4-bdee-37f8b36445d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_RX" input
+			(at 142.24 129.54 0)
+			(uuid "85e910b2-ba77-4b49-b442-ff93ec331c03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK" input
+			(at 142.24 132.08 0)
+			(uuid "e0830ee4-ab31-45ee-ba1e-24ee46428f35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 142.24 134.62 0)
+			(uuid "fded11f6-f4d6-4130-a569-d634b77f617c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWO" input
+			(at 142.24 124.46 0)
+			(uuid "a0b7f7a8-2786-47f4-b809-c4eca52c0707")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec"
@@ -9554,6 +9674,108 @@
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 121.92)
+		(size 17.78 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "df83429b-f2ab-448f-b3ce-9aa6514ebb89")
+		(property "Sheetname" "STLink"
+			(at 158.75 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STLINK_sch.kicad_sch"
+			(at 158.75 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NRST" output
+			(at 176.53 134.62 0)
+			(uuid "5704e4db-4fce-4af4-b7a5-0c151a076296")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STLink_RX" input
+			(at 158.75 127 180)
+			(uuid "5615efbf-dcf5-4186-8e4c-8503c2c034d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STLink_TX" output
+			(at 158.75 129.54 180)
+			(uuid "d82caefb-1b6a-435c-bb0a-ae3fe1d13f92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" output
+			(at 158.75 132.08 180)
+			(uuid "14acd1a6-dd7a-4fda-80f6-1a762c65dff2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 158.75 134.62 180)
+			(uuid "a8da4b17-9f8e-41f9-853c-fa75bd647273")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWO" output
+			(at 158.75 124.46 180)
+			(uuid "5e52bd86-492d-44ae-8826-a042e669ee95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec"
+					(page "9")
 				)
 			)
 		)

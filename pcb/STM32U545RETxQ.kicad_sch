@@ -3155,10 +3155,10 @@
 		(uuid "7e620232-6bd7-4500-a994-993bd5d6116e")
 	)
 	(junction
-		(at 199.39 93.98)
+		(at 198.12 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "85eeaafb-6df5-4628-987c-dbbed5055b00")
+		(uuid "95876847-6897-4bb1-8912-866a350a2080")
 	)
 	(junction
 		(at 119.38 73.66)
@@ -3213,14 +3213,6 @@
 		(uuid "1339fbfa-5bfe-4903-8fd9-c7c052b680f3")
 	)
 	(no_connect
-		(at 184.15 96.52)
-		(uuid "2036842c-71c9-4de7-be51-3fa6eb6baf68")
-	)
-	(no_connect
-		(at 184.15 83.82)
-		(uuid "22b33cd1-2c0d-4e53-8f2c-a00eecebd532")
-	)
-	(no_connect
 		(at 133.35 106.68)
 		(uuid "35230a05-2dc4-4da1-84f1-41db1f35622f")
 	)
@@ -3231,10 +3223,6 @@
 	(no_connect
 		(at 133.35 111.76)
 		(uuid "3f2aa854-2e4d-4ab7-a6d0-16fcd592bea2")
-	)
-	(no_connect
-		(at 184.15 91.44)
-		(uuid "42bf131b-f18b-4e6b-8ed2-9b551b5d7a3c")
 	)
 	(no_connect
 		(at 184.15 116.84)
@@ -3265,10 +3253,6 @@
 		(uuid "cfb5732f-90d3-4df8-870b-e396db54680a")
 	)
 	(no_connect
-		(at 184.15 81.28)
-		(uuid "d08a726f-9540-4e64-9e39-e949ac89335b")
-	)
-	(no_connect
 		(at 184.15 114.3)
 		(uuid "d3e9455e-73a4-4d78-8859-6272334f4635")
 	)
@@ -3279,10 +3263,6 @@
 	(no_connect
 		(at 133.35 96.52)
 		(uuid "e21012c9-661e-4a7e-acd0-944f60717dc5")
-	)
-	(no_connect
-		(at 184.15 109.22)
-		(uuid "e5cf6e41-d34e-457e-8598-ae1f1212948c")
 	)
 	(no_connect
 		(at 133.35 104.14)
@@ -3368,7 +3348,17 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 93.98) (xy 199.39 93.98)
+			(xy 184.15 96.52) (xy 198.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c24e91-dc6e-4f0e-9c02-f1421d09dccd")
+	)
+	(wire
+		(pts
+			(xy 203.2 96.52) (xy 198.12 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3408,16 +3398,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 93.98) (xy 184.15 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3adebbbf-b7b0-48ea-8c15-66251c7787f6")
-	)
-	(wire
-		(pts
 			(xy 119.38 73.66) (xy 133.35 73.66)
 		)
 		(stroke
@@ -3435,6 +3415,16 @@
 			(type default)
 		)
 		(uuid "44b8a437-ae55-4e63-ba38-34a1cbbb45fc")
+	)
+	(wire
+		(pts
+			(xy 184.15 104.14) (xy 194.31 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5f1e88-a8bd-4ac7-b267-a510ccc298d8")
 	)
 	(wire
 		(pts
@@ -3518,6 +3508,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 93.98) (xy 204.47 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a8bd60-0992-4cea-b573-6ac0a7b4943d")
+	)
+	(wire
+		(pts
 			(xy 151.13 139.7) (xy 151.13 142.24)
 		)
 		(stroke
@@ -3535,16 +3535,6 @@
 			(type default)
 		)
 		(uuid "a18521e6-376d-4c50-81a9-295293299712")
-	)
-	(wire
-		(pts
-			(xy 184.15 104.14) (xy 207.01 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3285a7c-f3ce-438d-8b38-2e5e63d1f37b")
 	)
 	(wire
 		(pts
@@ -3578,6 +3568,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 106.68) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83722aa-069c-40b7-bed3-f575c99e7b8a")
+	)
+	(wire
+		(pts
 			(xy 168.91 38.1) (xy 168.91 40.64)
 		)
 		(stroke
@@ -3595,6 +3595,16 @@
 			(type default)
 		)
 		(uuid "bb4db5d7-3ed5-40f4-8579-f04349b6a748")
+	)
+	(wire
+		(pts
+			(xy 184.15 109.22) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d32636-069c-4cd2-9a37-1a6cc7815a4c")
 	)
 	(wire
 		(pts
@@ -3635,6 +3645,16 @@
 			(type default)
 		)
 		(uuid "d2189d24-7f2d-487c-bd18-e9bfb7d89139")
+	)
+	(wire
+		(pts
+			(xy 184.15 91.44) (xy 204.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de49c2e5-d4bc-485a-b093-27a5ec606b48")
 	)
 	(wire
 		(pts
@@ -3695,6 +3715,16 @@
 			(type default)
 		)
 		(uuid "f1629063-b229-47c6-8180-a88604692c94")
+	)
+	(wire
+		(pts
+			(xy 194.31 104.14) (xy 194.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92f203a-5714-4eb3-8d43-f3b90eb1615c")
 	)
 	(wire
 		(pts
@@ -3841,7 +3871,7 @@
 	)
 	(hierarchical_label "ADC1_IN16"
 		(shape input)
-		(at 207.01 104.14 0)
+		(at 203.2 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3882,6 +3912,17 @@
 			(justify left)
 		)
 		(uuid "3430ccee-dac8-41bc-ba4c-a49f236e3c99")
+	)
+	(hierarchical_label "SWO"
+		(shape input)
+		(at 203.2 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3762a879-9c51-45ba-9148-901ecceb8fa6")
 	)
 	(hierarchical_label "SD_CMD"
 		(shape output)
@@ -3948,6 +3989,39 @@
 			(justify left)
 		)
 		(uuid "88f867af-55da-40ec-9d9c-975f5841dbb7")
+	)
+	(hierarchical_label "MCU_RX"
+		(shape input)
+		(at 184.15 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "927da727-d595-430f-ab76-03ab29992323")
+	)
+	(hierarchical_label "MCU_TX"
+		(shape output)
+		(at 184.15 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "931bcb2c-28f5-44c4-a418-e47741433015")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 204.47 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9394af30-e6cc-4fe5-b3ff-640566a6b1f8")
 	)
 	(hierarchical_label "ADC1_IN6"
 		(shape input)
@@ -4026,9 +4100,20 @@
 		)
 		(uuid "cf54e6ae-fa12-45d5-abe3-89a4412186db")
 	)
+	(hierarchical_label "SWDIO"
+		(shape bidirectional)
+		(at 204.47 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d604b763-4c08-4d71-a8d0-0354a851a562")
+	)
 	(hierarchical_label "SD_EJECT"
 		(shape input)
-		(at 204.47 93.98 0)
+		(at 203.2 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4136,7 +4221,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 199.39 93.98 180)
+		(at 198.12 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4144,7 +4229,7 @@
 		(dnp no)
 		(uuid "07823d01-7450-47e5-8c86-99d57b1b72e1")
 		(property "Reference" "TP_SD_EJECT1"
-			(at 212.852 100.584 0)
+			(at 211.582 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4238,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 209.296 98.298 0)
+			(at 208.026 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4247,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 194.31 93.98 0)
+			(at 193.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4256,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 194.31 93.98 0)
+			(at 193.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4265,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 199.39 93.98 0)
+			(at 198.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +4274,7 @@
 			)
 		)
 		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326"
-			(at 199.39 93.98 0)
+			(at 198.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
