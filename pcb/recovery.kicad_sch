@@ -1004,6 +1004,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2fb2e0ab-a1d5-4639-ac91-fb1f2d2e6ce3")
 		)
@@ -1032,7 +1041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35143c1e-ada3-4087-b93c-7d4d916a43ad")
-		(property "Reference" "TP_PYRO2_CONT1"
+		(property "Reference" "PYRO2_CONT1"
 			(at 188.214 104.394 0)
 			(effects
 				(font
@@ -1086,17 +1095,26 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68c9082d-7c77-48b0-b223-1d6aa8f9ac2f")
 		)
 		(instances
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/2c5e2862-ff08-4e6b-88a7-19e0713fdfd8"
-					(reference "TP_PYRO2_CONT1")
+					(reference "PYRO2_CONT1")
 					(unit 1)
 				)
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/39cd510b-4c65-4a51-9a25-0e0b3aa6fc74"
-					(reference "TP_PYRO1_CONT1")
+					(reference "PYRO1_CONT1")
 					(unit 1)
 				)
 			)
@@ -1111,7 +1129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4235921f-3379-4a7d-ad4f-d6d3cdc8b19d")
-		(property "Reference" "TP_PYRO2_OUT1"
+		(property "Reference" "PYRO2_OUT1"
 			(at 172.212 72.644 0)
 			(effects
 				(font
@@ -1165,17 +1183,26 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 171.45 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02124f2d-6992-432d-8cf3-1bebf0164504")
 		)
 		(instances
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/2c5e2862-ff08-4e6b-88a7-19e0713fdfd8"
-					(reference "TP_PYRO2_OUT1")
+					(reference "PYRO2_OUT1")
 					(unit 1)
 				)
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/39cd510b-4c65-4a51-9a25-0e0b3aa6fc74"
-					(reference "TP_PYRO1_OUT1")
+					(reference "PYRO1_OUT1")
 					(unit 1)
 				)
 			)
@@ -1191,7 +1218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6503a8c2-fa42-47ef-9199-231d82fd77f4")
-		(property "Reference" "TP_PYRO2_GNDD1"
+		(property "Reference" "GNDD1"
 			(at 194.31 75.4379 0)
 			(effects
 				(font
@@ -1245,17 +1272,26 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 191.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "064e5071-fd5d-40a5-a132-79c5206555cc")
 		)
 		(instances
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/2c5e2862-ff08-4e6b-88a7-19e0713fdfd8"
-					(reference "TP_PYRO2_GNDD1")
+					(reference "GNDD1")
 					(unit 1)
 				)
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/39cd510b-4c65-4a51-9a25-0e0b3aa6fc74"
-					(reference "TP_PYRO1_GNDD1")
+					(reference "PYRO1_GNDD1")
 					(unit 1)
 				)
 			)
@@ -1394,6 +1430,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "207df419-ef7e-4ffb-9173-649ef079d01c")
 		)
@@ -1492,7 +1537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93e90028-fbd1-40d9-8ff3-c4a61946da32")
-		(property "Reference" "TP_PYRO2_FIRE1"
+		(property "Reference" "PYRO2_FIRE1"
 			(at 109.728 87.376 0)
 			(effects
 				(font
@@ -1546,17 +1591,26 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcdbb777-d684-4751-981a-da82e8d5f17f")
 		)
 		(instances
 			(project "control-module"
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/2c5e2862-ff08-4e6b-88a7-19e0713fdfd8"
-					(reference "TP_PYRO2_FIRE1")
+					(reference "PYRO2_FIRE1")
 					(unit 1)
 				)
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/39cd510b-4c65-4a51-9a25-0e0b3aa6fc74"
-					(reference "TP_PYRO1_FIRE1")
+					(reference "PYRO1_FIRE1")
 					(unit 1)
 				)
 			)
@@ -1763,6 +1817,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 128.27 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e7bdf7c8-46a4-4bb3-b950-788204ae050c")
 		)
@@ -1846,6 +1909,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -1937,6 +2009,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

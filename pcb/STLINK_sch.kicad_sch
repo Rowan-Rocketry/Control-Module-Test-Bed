@@ -700,14 +700,14 @@
 	)
 	(hierarchical_label "STLink_RX"
 		(shape input)
-		(at 106.68 107.95 0)
+		(at 106.68 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "127fe448-3c73-4f79-9822-b127dc0d36f2")
+		(uuid "0b849eee-ec82-4992-8989-2bc1d38fb006")
 	)
 	(hierarchical_label "SWO"
 		(shape output)
@@ -755,14 +755,14 @@
 	)
 	(hierarchical_label "STLink_TX"
 		(shape output)
-		(at 106.68 105.41 0)
+		(at 106.68 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "8ac9834e-af32-4f06-b109-3d47fd02f592")
+		(uuid "8e247f10-92f9-48f5-82bd-41cede37d16d")
 	)
 	(hierarchical_label "NRST_radio"
 		(shape output)
@@ -797,7 +797,7 @@
 		)
 		(uuid "af9cd92c-51b1-4079-9b3d-35ee46229594")
 	)
-	(hierarchical_label "STLink_radio"
+	(hierarchical_label "STLink_radio_RX"
 		(shape output)
 		(at 184.15 105.41 0)
 		(effects
@@ -819,7 +819,7 @@
 		)
 		(uuid "be047c84-c491-4819-8822-008e15303f09")
 	)
-	(hierarchical_label "STLink_radio"
+	(hierarchical_label "STLink_radio_TX"
 		(shape input)
 		(at 184.15 107.95 0)
 		(effects
@@ -897,72 +897,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 171.45 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1df8ca36-4c48-4028-aba5-67f6032d3eb4")
-		(property "Reference" "#PWR0112"
-			(at 171.45 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 171.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc2a8b27-5a52-4ab2-b765-5dbd5452fec7")
-		)
-		(instances
-			(project "control-module"
-				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/df83429b-f2ab-448f-b3ce-9aa6514ebb89"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_ST_STDC14")
 		(at 93.98 95.25 0)
 		(unit 1)
@@ -1018,6 +952,15 @@
 			)
 		)
 		(property "Sim.Library" ".\\"
+			(at 93.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 93.98 95.25 0)
 			(effects
 				(font
@@ -1138,6 +1081,73 @@
 			(project ""
 				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/df83429b-f2ab-448f-b3ce-9aa6514ebb89"
 					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 171.45 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5358ecf2-95f5-4f5b-adfb-acbb5b2d0725")
+		(property "Reference" "#PWR097"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_radio"
+			(at 171.4501 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc92ae78-bf00-4b00-a900-c181c1f6b455")
+		)
+		(instances
+			(project "control-module"
+				(path "/ba7b4294-8d75-4b9e-892f-fb52727887ec/df83429b-f2ab-448f-b3ce-9aa6514ebb89"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -1265,6 +1275,15 @@
 			)
 		)
 		(property "Sim.Library" ".\\"
+			(at 171.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 171.45 95.25 0)
 			(effects
 				(font
