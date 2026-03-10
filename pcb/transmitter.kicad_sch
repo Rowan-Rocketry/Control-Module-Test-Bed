@@ -19043,7 +19043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CC0603KRX5R7BB475"
+		(property "Description" "CC0603KRX5R7BB475 (corrected package size CC0402KRX5R6BB475)"
 			(at 116.84 109.22 0)
 			(effects
 				(font
