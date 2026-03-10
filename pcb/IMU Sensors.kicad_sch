@@ -3511,7 +3511,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LSM6DSL"
+		(property "Value" "LSM6DSRTR"
 			(at 160.9441 114.3 0)
 			(effects
 				(font
